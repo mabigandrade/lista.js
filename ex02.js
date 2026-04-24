@@ -1,11 +1,8 @@
 const prompt = require('prompt-sync')();
-console.log("--- Conversor de Temperatura ---");
 
-let temperaturaCelsius = Number(prompt("Digite a temperatura em Celsius: "));
+let temperaturaCelsius = Number(prompt("Digite a temperatura em graus Celsius: "));
+
 let temperaturaFahrenheit = (temperaturaCelsius * 9/5) + 32;
 
-console.log("Entrada: " + temperaturaCelsius);
-console.log("Processamento: F = " + temperaturaCelsius + " * 9/5 + 32 = " + temperaturaFahrenheit);
-console.log("Saída: " + temperaturaFahrenheit);
+console.log("A temperatura convertida em Fahrenheit é: " + temperaturaFahrenheit + "°F");
 
-console.log("--- Final ---");
