@@ -1,4 +1,3 @@
-// Importando o módulo que você instalou via terminal
 const prompt = require('prompt-sync')();
 
 console.log("--- Soma de Valores ---");
@@ -12,3 +11,5 @@ let soma = num1 + num2;
 
 // Template String (usa crases): facilita exibir variáveis no meio do texto
 console.log(`O resultado da soma entre ${num1} e ${num2} é: ${soma}`);
+
+//exercício do documento 1
